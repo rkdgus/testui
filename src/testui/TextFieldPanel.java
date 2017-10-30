@@ -20,6 +20,7 @@ public class TextFieldPanel extends JPanel {
 		add(lblNewLabel);
 		
 		textField = new JTextField();
+		textField.setEnabled(false);
 		add(textField);
 		textField.setColumns(10);
 
