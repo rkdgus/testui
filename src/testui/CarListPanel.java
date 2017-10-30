@@ -1,13 +1,17 @@
 package testui;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.GridBagLayout;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
+import javax.swing.ScrollPaneConstants;
 import javax.swing.SwingConstants;
 import java.awt.GridLayout;
+import java.awt.FlowLayout;
 
 public class CarListPanel extends JPanel {
 
@@ -27,20 +31,17 @@ public class CarListPanel extends JPanel {
 		panel.setBounds(0, 46, 588, 656);
 		add(panel);
 		panel.setLayout(new BorderLayout(0, 0));
-		CarList c = new CarList();
-		CarList c1 = new CarList();
-		JScrollPane scrollPane = new JScrollPane();
+		CarContent panel_2 = new CarContent();
+		JScrollPane scrollPane = new JScrollPane(panel_2, ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS, 
+				ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		panel_2.setLayout(new GridLayout(0, 1, 0, 2));
 		panel.add(scrollPane, BorderLayout.CENTER);
 		
-		JPanel panel_1 = new JPanel();
+	
 		
-		panel_1.setLayout(new GridLayout(0, 1, 0, 0));
-		
-		
-		scrollPane.setViewportView(c);
-		
-		
-		scrollPane.setViewportView(c1);
+	
+
+
 		
 	}
 }

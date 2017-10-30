@@ -14,6 +14,7 @@ public class InsertRentPanel extends JPanel {
 
 	
 	public InsertRentPanel() {
+		setBackground(Color.WHITE);
 		setForeground(Color.BLACK);
 		setBorder(new LineBorder(new Color(0, 0, 0), 2));
 		setLayout(null);
