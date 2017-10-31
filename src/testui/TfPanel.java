@@ -12,10 +12,10 @@ public class TfPanel extends JPanel {
 	/**
 	 * Create the panel.
 	 */
-	public TfPanel() {
+	public TfPanel(String str) {
 		setLayout(new GridLayout(0, 1, 0, 0));
 		
-		JLabel lblNewLabel = new JLabel("New label");
+		JLabel lblNewLabel = new JLabel(str);
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		add(lblNewLabel);
 		

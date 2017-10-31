@@ -19,12 +19,6 @@ public class CarListPanel extends JPanel {
 	public CarListPanel() {
 		setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("차량 리스트");
-		lblNewLabel.setFont(new Font("돋움", Font.BOLD, 25));
-		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setBounds(0, 0, 588, 49);
-		add(lblNewLabel);
-		
 		JPanel panel = new JPanel();
 		panel.setBounds(0, 46, 588, 656);
 		add(panel);
