@@ -23,7 +23,7 @@ public class CarList extends JPanel {
 		setBorder(new LineBorder(new Color(0, 0, 0), 2));
 		img = new ImageIcon("D:\\workspace\\workspace_java\\testProject\\src\\testProject\\ui\\car1.jpg");
 		setLayout(null);
-		JLabel lblNewLabel = new JLabel(new ImageIcon("C:\\Users\\강현\\Desktop\\차\\k3.jpg"));
+		JLabel lblNewLabel = new JLabel(new ImageIcon("C:\\Users\\DGIT3-10\\Desktop\\차\\sorentoR.jpg"));
 		lblNewLabel.setBounds(28, 52, 531, 233);
 		add(lblNewLabel);
 		
