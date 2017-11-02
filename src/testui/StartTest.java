@@ -8,7 +8,7 @@ import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.border.EmptyBorder;
 
-public class StartTEst extends JFrame {
+public class StartTest extends JFrame {
 
 	private CarContentPanel contentPane;
 
@@ -28,7 +28,7 @@ public class StartTEst extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					StartTEst frame = new StartTEst();
+					StartTest frame = new StartTest();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -40,7 +40,7 @@ public class StartTEst extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public StartTEst() {
+	public StartTest() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 990, 793);
 		contentPane = new CarContentPanel();

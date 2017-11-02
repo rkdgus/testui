@@ -28,7 +28,7 @@ public class CarPanel extends JPanel {
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\강현\\Desktop\\새 폴더 (2)\\그림8.jpg"));
+		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\DGIT3-10\\Desktop\\그림1.jpg"));
 		add(lblNewLabel);
 		
 		JPanel panel = new JPanel();
@@ -59,7 +59,7 @@ public class CarPanel extends JPanel {
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
 		panel_5.add(lblNewLabel_1);
 		
-		JLabel lblNewLabel_2 = new JLabel("오토/휘발류");
+		JLabel lblNewLabel_2 = new JLabel("오토/휘발유");
 		panel_5.add(lblNewLabel_2);
 
 	}
