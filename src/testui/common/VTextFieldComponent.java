@@ -1,4 +1,4 @@
-package testui;
+package testui.common;
 
 import javax.swing.JPanel;
 import java.awt.GridLayout;
@@ -6,13 +6,14 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-public class TfPanel extends JPanel {
+@SuppressWarnings("serial")
+public class VTextFieldComponent extends JPanel {
 	private JTextField textField;
 
 	/**
 	 * Create the panel.
 	 */
-	public TfPanel(String str) {
+	public VTextFieldComponent(String str) {
 		setLayout(new GridLayout(0, 1, 0, 0));
 		
 		JLabel lblNewLabel = new JLabel(str);
@@ -26,5 +27,15 @@ public class TfPanel extends JPanel {
 		textField.setColumns(10);
 
 	}
+
+	public JTextField getTextField() {
+		return textField;
+	}
+
+	public void setTextField(JTextField textField) {
+		this.textField = textField;
+	}
+	
+	
 
 }
